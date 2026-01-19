@@ -161,13 +161,46 @@ header a:hover{
 
 /*響應式設計語法*/
 
-@media screen and (max-width: 1550px){
+@media screen and (max-width: 1200px){
     header ul{
         display: none;
     }
     header h1 {
         left: 10%;
         transform: translateX(-50%);
+    }
+    header h2 {
+        left: 40%;
+        transform: translateX(-50%);
+    }
+    .menu {
+        display: block;
+        background-color: transparent;
+        color:#000079;
+        font-size: 35px;
+        position: absolute;
+        top: 15px;
+        left: 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    header {
+        height: 50px;
+        width: 100%;
+        line-height: 50px;
+    }
+    header ul{
+        display: none;
+    }
+    header h1 {
+        left: 10%;
+        transform: translateX(-50%);
+        
+        transform: scale(0.6);
     }
     header h2 {
         left: 40%;
