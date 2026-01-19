@@ -41,7 +41,7 @@ header h2{
 }
 header li{
     display: inline;
-    margin-right: 4vw;
+    margin-right: 2.5vw;
 }
 header a{ 
     color: #000079;
@@ -154,4 +154,35 @@ header a:hover{
     color: #000079;
     font-size: 20px;
     line-height:1.6em;
+}
+.menu {
+    display: none;
+}
+
+/*響應式設計語法*/
+
+@media screen and (max-width: 1550px){
+    header ul{
+        display: none;
+    }
+    header h1 {
+        left: 10%;
+        transform: translateX(-50%);
+    }
+    header h2 {
+        left: 40%;
+        transform: translateX(-50%);
+    }
+    .menu {
+        display: block;
+        background-color: transparent;
+        color:#000079;
+        font-size: 35px;
+        position: absolute;
+        top: 15px;
+        left: 20px;
+        border: none;
+        cursor: pointer;
+    }
+
 }
