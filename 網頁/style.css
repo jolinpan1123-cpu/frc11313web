@@ -166,11 +166,11 @@ header a:hover{
         display: none;
     }
     header h1 {
-        left: 8%;
+        left: 7%;
         transform: translateX(-50%);
     }
     header h2 {
-        left: 40%;
+        left: 41%;
         transform: translateX(-50%);
         
     }
@@ -242,6 +242,7 @@ header a:hover{
 
 
 }
+
 
 
 
