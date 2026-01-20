@@ -227,9 +227,20 @@ header a:hover{
         border: none;
         cursor: pointer;
     }
+    .a{
+        background-size: contain;
+    }
+    .a h2{
+        color: #000079;
+        font-size: 48px;
+    }
+    .a p{
+        font-size: 30px;
+    }
 
 
 }
+
 
 
 
