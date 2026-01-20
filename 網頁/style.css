@@ -208,28 +208,33 @@ header a:hover{
         display: none;
     }
     header h1 {
-        left: 2%;
+        left: 6%;
         transform: translateX(-50%);
+        line-height: 50px;
+        background-size: contain;
         
-        transform: scale(0.6);
     }
     header h2 {
         left: 50%;
         transform: translateX(-50%);
         font-size: 18px;
+        line-height: 50px;
+        top: 0;
     }
     .menu {
         display: block;
         background-color: transparent;
         color:#000079;
-        font-size: 35px;
+        font-size: 20px;
         position: absolute;
-        top: 15px;
+        top: 0px;
         right: 20px;
         border: none;
         cursor: pointer;
+        line-height: 50px;
     }
     .a{
+        height: 50vh;  
         background-size: contain;
     }
     .a h2{
