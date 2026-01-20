@@ -161,7 +161,7 @@ header a:hover{
 
 /*響應式設計語法*/
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1200px){
     header ul{
         display: none;
     }
@@ -220,3 +220,4 @@ header a:hover{
 
 
 }
+
