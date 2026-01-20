@@ -170,7 +170,7 @@ header a:hover{
         transform: translateX(-50%);
     }
     header h2 {
-        left: 40%;
+        left: 50%;
         transform: translateX(-50%);
         
     }
@@ -181,7 +181,7 @@ header a:hover{
         font-size: 35px;
         position: absolute;
         top: 15px;
-        left: 20px;
+        right: 20px;
         border: none;
         cursor: pointer;
     }
@@ -214,12 +214,13 @@ header a:hover{
         font-size: 35px;
         position: absolute;
         top: 15px;
-        left: 20px;
+        right: 20px;
         border: none;
         cursor: pointer;
     }
 
 
 }
+
 
 
