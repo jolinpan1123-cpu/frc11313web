@@ -191,10 +191,10 @@ header a:hover{
     }
     .a h2{
         color: #000079;
-        font-size: 48px;
+        font-size: 30px;
     }
     .a p{
-        font-size: 30px;
+        font-size: 12px;
     }
 }
 
@@ -241,6 +241,7 @@ header a:hover{
 
 
 }
+
 
 
 
