@@ -185,7 +185,9 @@ header a:hover{
         border: none;
         cursor: pointer;
     }
-
+    .a{
+        background-size: contain;
+    }
 }
 
 @media screen and (max-width: 767px){
@@ -221,6 +223,7 @@ header a:hover{
 
 
 }
+
 
 
 
