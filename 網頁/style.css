@@ -166,11 +166,11 @@ header a:hover{
         display: none;
     }
     header h1 {
-        left: 10%;
+        left: 8%;
         transform: translateX(-50%);
     }
     header h2 {
-        left: 50%;
+        left: 40%;
         transform: translateX(-50%);
         
     }
@@ -191,10 +191,10 @@ header a:hover{
     }
     .a h2{
         color: #000079;
-        font-size: 30px;
+        font-size: 26px;
     }
     .a p{
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 
@@ -242,6 +242,7 @@ header a:hover{
 
 
 }
+
 
 
 
