@@ -16,7 +16,7 @@ h1{
 }
 header ul{
     position: absolute;
-    right: 3vw;
+    right: 1vw;
     top: 0;
     line-height: 80px;
 }
@@ -54,10 +54,10 @@ header a:hover{
 .a {
     background-color:white;
     color: #000079;
-    height: 100vh;  
+    height: 110vh;  
     background-image: url("images/all.jpeg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     display: flex;
     flex-direction: column;
@@ -161,7 +161,7 @@ header a:hover{
 
 /*響應式設計語法*/
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1450px){
     header ul{
         display: none;
     }
@@ -170,9 +170,9 @@ header a:hover{
         transform: translateX(-50%);
     }
     header h2 {
-        left: 41%;
+        left: 36%;
         transform: translateX(-50%);
-        
+        font-size: 30px;
     }
     .menu {
         display: block;
@@ -186,15 +186,15 @@ header a:hover{
         cursor: pointer;
     }
     .a{
-        height: 50vh;  
+        height: 80vh;  
         background-size: contain;
     }
     .a h2{
         color: #000079;
-        font-size: 26px;
+        font-size: 40px;
     }
     .a p{
-        font-size: 14px;
+        font-size: 30px;
     }
 }
 
@@ -242,7 +242,6 @@ header a:hover{
 
 
 }
-
 
 
 
