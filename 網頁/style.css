@@ -216,6 +216,7 @@ header a:hover{
     header h2 {
         left: 40%;
         transform: translateX(-50%);
+        font-size: 20px;
     }
     .menu {
         display: block;
@@ -233,14 +234,15 @@ header a:hover{
     }
     .a h2{
         color: #000079;
-        font-size: 48px;
+        font-size: 20px;
     }
     .a p{
-        font-size: 30px;
+        font-size: 8px;
     }
 
 
 }
+
 
 
 
